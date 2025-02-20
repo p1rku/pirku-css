@@ -1,0 +1,100 @@
+/*font style and font family*/
+#p1{
+    font-family: "noto serif telugu", serif;
+    /*font-style:normal*/
+    /*font-style:oblique*/
+    font-style:italic
+}
+
+/*Font variant*/
+
+#p2{
+font-variant: small-caps;
+/*font-variant: normal;*/
+
+}
+
+/*font weight*/
+
+#p3{
+font-weight: bold;
+/*font-weight: 900;*/
+/*font-weight:bolder*/
+
+}
+
+/* font-size*/
+
+#p4{
+    font-size: 4vw;
+    /*font-size: 50px*/
+    /*font-size: 150px*/
+    /*font-size: large*/
+    /*font-size: small*/
+    /* font-size:1cm*/
+}
+
+/*shorthand*/
+
+#p5{
+font: bold italic small-caps 3vw georgian;
+width:  150px;  
+
+}
+#p6{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+#p7{
+    font-family: "Dancing Script", cursive;
+    text-align: 20px;
+    text-align: justify;
+    height: 250px;
+    width: 300px;
+
+}
+
+/*Text Colorand direction*/
+
+#p8{
+    color: aqua;
+    direction: rtl;
+}
+
+/*text indent*/
+
+#p9{
+text-indent: 20px;
+/* text-indent: 5cm*/
+}
+
+/*text spacing*/
+
+#p10{
+    letter-spacing: 5px;
+    word-spacing: 15px;
+/*white-space: pre;*/
+}
+
+/*text decoration*/
+
+#p11{
+    text-decoration: underline;
+}
+
+/*text transform*/
+
+#p12{
+    text-transform: capitalize;
+
+}
+
+/*text shadow*/
+
+#p13{
+font-size: 70px;
+text-shadow: 5px 4px 8px red
+;
+
+}

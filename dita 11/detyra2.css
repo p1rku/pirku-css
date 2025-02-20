@@ -1,0 +1,11 @@
+/*ket detyr e kam bo i pari*/
+#img{
+    opacity: 0.4;
+    width: 250px;
+    height: 150px;
+}
+
+#img:hover{
+    opacity: 1;
+    border-radius: 50%;
+}

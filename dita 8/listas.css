@@ -1,0 +1,52 @@
+#ul1{
+    list-style-type: circle;
+    list-style-position: outside;
+    width: 100px;
+}
+#ul2{
+    list-style-type: circle;
+    list-style-position: inside;
+    width: 100px;
+    /*text-align:center*/
+}
+#ul3{
+    list-style-image: url(batman-logo\ \(1\).png);
+    list-style-position: inside;
+}
+#ul5{
+    list-style-image: url(batman-logo\ \(2\).png);
+    list-style-position: inside;
+}
+#ol1{
+    list-style-type: none;
+}
+#ol2{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0
+}
+#ol3{
+    list-style: inside upper-roman;
+    width: 100px;
+}
+#ul4{
+    background: #aa3355;
+    padding: 20px;
+}
+#ul4 li{
+    background-color: #5533ff;
+    color:white;
+    margin: 10px;
+}
+    /*detyr ol4 u kon, edhe jam kon i pari me bo sakt*/
+#ol4{
+    background-color: #aa3355;
+    padding:30px;
+    list-style-image: url(batman-logo\ \(1\).png)
+}
+#ol4 li:hover{
+    color: white;
+    font-size: 20px;
+    background-color: #5533ff;
+    width: 235px;
+}

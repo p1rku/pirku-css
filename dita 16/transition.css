@@ -1,0 +1,81 @@
+#div1{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: darkred;
+    transition: 1s;
+}
+/*transition width 2s, height 3s, background 10s, color 5s;*/
+/*veti transition na muneson qe nje element ti ia ndryshojme vlerat e tuh be menyre smoothly apo ngadal, pasi te ndodh nje menyre e vemprimit te caktuar*/
+/* transition-delay: 2s;*/
+/* transition-timing-function:ease;*/
+/*Vlerat e jera qe mund te caktohen te kjo veti: ease-in, ease-out, linear*/
+/*ketu perdoret pseudoklasa hover*/
+#div1:hover{
+    width: 300px;
+    height: 300px;
+    color: red;
+    transition: 1.3s;
+    background-color: darkblue;
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: darkred;
+    /* transition: 2s; */
+    transition: 10s, width 2s, height 3s, background 1s;
+    color: white;
+    transition-delay: 1s;
+}
+#div2:hover{
+    width: 300px;
+    height: 300px;
+    background-color: darkblue;
+    color: red;
+    padding: 50px;
+}
+#div3{
+     width: 100px;
+    height: 100px;
+    color: white;
+    background-color: darkred;
+    transition: 1s;
+    /* transition: width 2s, height 3s, background 1s; */
+    transition-timing-function: ease-in;
+}
+#div3:hover{
+    width: 2300px;
+    height: 300px;
+    background-color: darkblue;
+    color: red;
+}
+#div4{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: darkred;
+    transition-delay: 1s;
+    transition-property: width, height, color;
+    transition-duration: 4s;
+    transition-timing-function: ease;
+}
+#div4:hover{
+    width: 300px;
+    height: 300px;
+    background: darkblue;
+    color: red;
+}
+#div5{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: darkred;
+    transition: width 4s linear 1s;
+}
+#div5:hover{
+    width: 300px;
+    height: 300px;
+    background: darkblue;
+    color: red;
+}

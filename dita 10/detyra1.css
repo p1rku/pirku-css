@@ -1,0 +1,23 @@
+#main{
+    border: 20px solid gray;
+    padding: 20px;
+    width: 700px;
+    margin:auto;
+}
+.data{
+    text-align: top right;
+    color: lightblue;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    font-size: small;
+}
+.heading{
+    font-size: 35px;
+    color: darkblue;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.paragrafi{
+    border-left: 3px solid gray;
+    padding-left: 10px;
+}

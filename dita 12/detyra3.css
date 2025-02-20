@@ -1,0 +1,15 @@
+*{
+
+}
+#div1{
+    margin: 300px;
+}
+#div2{
+    background-color: rgb(44, 43, 43);
+    height: 900px;
+    width: 500px;
+    color: white;
+}
+h3{
+    text-decoration: underline;
+}

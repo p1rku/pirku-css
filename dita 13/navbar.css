@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgb(17, 36, 36);
+    color: white;
+    margin-top: -17px;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li{
+    display: inline-block
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+    font-size: 25px;
+    text-decoration: underline;
+}
